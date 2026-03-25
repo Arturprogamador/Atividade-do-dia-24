@@ -1,0 +1,12 @@
+matriz = []
+valores = []
+
+for i in range(3):
+    linha = []
+    for j in range(3):
+        num = float(input(f"Digite [{i}][{j}]: "))
+        linha.append(num)
+        valores.append(num)
+    matriz.append(linha)
+
+print("Maior valor:", max(valores))

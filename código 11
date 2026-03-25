@@ -1,0 +1,7 @@
+numeros = []
+
+for i in range(5):
+    num = float(input("Digite um número: "))
+    numeros.append(num)
+
+print("Soma:", sum(numeros))

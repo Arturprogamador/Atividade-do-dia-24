@@ -1,0 +1,9 @@
+numeros = []
+
+for i in range(5):
+    num = float(input("Digite um número: "))
+    numeros.append(num)
+
+media = sum(numeros) / len(numeros)
+
+print("Média:", media)

@@ -1,0 +1,8 @@
+notas = []
+
+for i in range(4):
+    notas.append(float(input("Digite a nota: ")))
+
+media = sum(notas) / 4
+
+print("Média:", media)

@@ -1,0 +1,25 @@
+m1 = []
+m2 = []
+resultado = []
+
+print("Matriz 1:")
+for i in range(2):
+    linha = []
+    for j in range(2):
+        linha.append(float(input(f"[{i}][{j}]: ")))
+    m1.append(linha)
+
+print("Matriz 2:")
+for i in range(2):
+    linha = []
+    for j in range(2):
+        linha.append(float(input(f"[{i}][{j}]: ")))
+    m2.append(linha)
+
+for i in range(2):
+    linha = []
+    for j in range(2):
+        linha.append(m1[i][j] + m2[i][j])
+    resultado.append(linha)
+
+print("Resultado:", resultado)

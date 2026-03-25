@@ -1,0 +1,9 @@
+numeros = []
+quadrados = []
+
+for i in range(5):
+    num = float(input("Digite um número: "))
+    numeros.append(num)
+    quadrados.append(num ** 2)
+
+print("Lista ao quadrado:", quadrados)
